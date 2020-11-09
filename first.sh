@@ -1,3 +1,9 @@
-#!/bin/zsh
+#!/bin/bash
 
-echo "yoyo"
+
+i=0
+
+while [[ $i -le 10 ]] ; do
+	echo $i
+	((i++))
+done
